@@ -1,0 +1,164 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #88b1e3;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+
+#header-nav {
+  background-color: #2e5380;
+  border-radius: 0;
+  border: 0;
+  min-height: 60px;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+.navbar-brand h1 { 
+  font-family: 'Lora', serif;
+  color: #c7e8f0;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #cff7cd;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+  color: #043602;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #d2c9d6;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -33px;
+}
+/* END HEADER */
+
+/* HOME PAGE */
+/*.container .jumbotron {
+  box-shadow: 0 0 50px #3F0C1F;
+  border: 2px solid #3F0C1F;
+}*/
+
+#our-menu-title{
+  color: #043602;
+  font-weight: bold;
+}
+
+.category-tile2{
+  background-color: #448696;
+  
+  color: #cff7cd;
+}
+.category-tile2 p , .category-tile2 span{
+  padding : 10px 10px 10px 10px;
+  margin: 0px 0px 0px 0px;
+}
+.category-tile2 h3{
+  padding-top: 5px;
+  color: #000000;
+}
+
+.bkTop {
+  color: #000000;
+  padding-left: 5px;
+}
+
+/* END HOME PAGE */
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+ 
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 60px;
+  }
+  .navbar-brand h1 { 
+    padding-top: 10px;
+    font-size: 1.5em; 
+  }
+  
+  #collapsable-nav a { 
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { 
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  #header-nav {
+  padding-bottom: 0px;
+}
+  /* End Header */
+
+  /* Home Page */
+  /*.container .jumbotron {
+    margin-top: 30px;
+    padding: 0;
+  }*/
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 { 
+    padding-top: 5px;
+    font-size: 1.5em;
+  }
+  #header-nav {
+  padding-bottom: 0px;
+}
+  /* End Header */
+  
+  /* Home page 
+ 
+  .col-xxs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
+  }*/
+}
+
+
+
